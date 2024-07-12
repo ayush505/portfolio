@@ -1,7 +1,7 @@
 import React, { createContext, useContext, useEffect, useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
-import { FONT_SIZES, LANGUAGES, DEFAULT_FONT_SIZE, DEFAULT_LANGUAGE, DEFAULT_THEME } from '../constants';
+import { DEFAULT_LANGUAGE } from '../constants';
 import { 
   saveThemePreference, 
   loadThemePreference, 

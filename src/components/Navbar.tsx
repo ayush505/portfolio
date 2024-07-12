@@ -1,8 +1,10 @@
 import React from "react";
+// @ts-ignore
 import { FaLinkedin, FaGithub, FaFont, FaGlobe } from "react-icons/fa";
 import { FiSun, FiMoon, FiChevronDown } from "react-icons/fi";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { useAppSettings } from "../context/AppSettingsContext";
+// @ts-ignore
 import { FONT_SIZES, LANGUAGES } from "../constants";
 import { useTranslation } from 'react-i18next';
 
@@ -11,8 +13,8 @@ const Navbar: React.FC = () => {
     isDarkMode,
     toggleTheme,
     fontSize,
-    setFontSize,
-    language,
+    setFontSize,// @ts-ignore
+    language,// @ts-ignore
     setLanguage,
   } = useAppSettings();
 

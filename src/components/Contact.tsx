@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { useAppSettings } from '../context/AppSettingsContext';
 
 function Contact() {
-  const { isDarkMode, fontSize, language } = useAppSettings();
+  const { isDarkMode } = useAppSettings();
 
 
   return (

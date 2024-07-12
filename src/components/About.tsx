@@ -5,7 +5,7 @@ import { useAppSettings } from '../context/AppSettingsContext';
 import { useTranslation } from 'react-i18next';
 
 function About() {
-  const { isDarkMode, toggleTheme, fontSize, setFontSize, language, setLanguage } = useAppSettings();
+  const { isDarkMode } = useAppSettings();
   const { t } = useTranslation();
 
 

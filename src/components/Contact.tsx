@@ -30,6 +30,7 @@ function Contact() {
           initial={{ opacity: 0, x: 100 }}
           transition={{ duration: 1 }}
           className={`my-4 ${isDarkMode ? 'text-neutral-300' : 'text-neutral-700'}`}
+          whileHover={{ scale: 1.5 }}
         >
           {CONTACT.phoneNo}
         </motion.p>

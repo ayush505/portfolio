@@ -9,7 +9,7 @@ export const saveThemePreference = (isDarkMode: boolean): void => {
 
 export const loadThemePreference = (): boolean => {
   const savedTheme = localStorage.getItem(THEME_KEY);
-  return savedTheme ? JSON.parse(savedTheme) : false; // default to light mode
+  return savedTheme ? JSON.parse(savedTheme) : true; // default to dark mode
 };
 
 export const saveFontSizePreference = (fontSize: string): void => {

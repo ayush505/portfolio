@@ -49,7 +49,7 @@ const AppContent: React.FC = () => {
         <About />
         <Technologies />
         <Experience />
-        <Projects />
+        {/* <Projects /> */}
         <Contact />
       </div>
     </motion.div>

@@ -26,9 +26,12 @@ function Hero() {
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className={`pb-16 text-6xl font-bold tracking-tight lg:mt-16 lg:text-8xl ${
+              className={`pb-8 text-6xl font-bold tracking-tight lg:mt-16 lg:text-8xl ${
                 isDarkMode ? 'text-gray-100' : 'text-gray-900'
               }`}
+              // whileHover={{ scale: 1.2 }}
+              // whileTap={{ scale: 1.2 }}
+              // whileInView={{scale: 1.2}}
             >
               {t('hero.name')}
             </motion.h1>
@@ -37,6 +40,7 @@ function Hero() {
               initial="hidden"
               animate="visible"
               className="bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-3xl font-semibold tracking-tight text-transparent"
+              whileHover={{ scale: 1.5, rotateY: 30, rotateX: -15 }}
             >
               {t('hero.title')}
             </motion.span>
@@ -45,6 +49,7 @@ function Hero() {
               initial="hidden"
               animate="visible"
               className={`mt-4 max-w-xl ${isDarkMode ? 'text-gray-300' : 'text-gray-700'}`}
+              whileHover={{ scale: 1.05 }}
             >
               {/* {HERO_CONTENT} */}
               {t('hero.content')}

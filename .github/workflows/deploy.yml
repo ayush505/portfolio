@@ -3,32 +3,32 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - master  # Adjust based on your main branch name
+      - master  # adjust based on your branch name
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4  # Updated version
+        uses: actions/checkout@v2
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4  # Updated version
+        uses: actions/setup-node@v2
         with:
           node-version: '18'
 
       - name: Install dependencies
         run: npm install
 
-      - name: Build project
+      - name: Build
         run: npm run build
 
       - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4  # Updated version
+        uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}  # Use default GitHub token
-          branch: gh-pages  # Deployment branch
-          folder: dist  # Build output folder
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}  # Ensure this secret is configured in your repository settings
+          branch: gh-pages  # Or your target branch
+          folder: dist  # Or your build output folder
 
       - name: Cleanup
         run: rm -rf dist

@@ -2,8 +2,8 @@ import { Variants, motion } from "framer-motion";
 import { useAppSettings } from '../context/AppSettingsContext';
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs, TbBrandTypescript } from "react-icons/tb";
-import { SiRedux, SiJavascript, SiVuedotjs, SiHtml5, SiCss3, SiSass, SiAntdesign, SiBootstrap, SiQuasar, SiSpringboot, SiExpress, SiWebpack } from "react-icons/si";
-import { FaNodeJs, FaAws, FaJava } from "react-icons/fa";
+import { SiRedux, SiJavascript,  SiHtml5, SiCss3,  SiAntdesign, SiBootstrap,  SiSpringboot, SiWebpack } from "react-icons/si";
+import { FaAws, FaJava } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 
 const iconVariants = (duration: number): Variants => ({

@@ -20,9 +20,9 @@ export const DEFAULT_FONT_SIZE = FONT_SIZES.MEDIUM;
 export const DEFAULT_LANGUAGE = LANGUAGES.ENGLISH;
 export const DEFAULT_THEME = 'dark';
 
-export const HERO_CONTENT: string = `I am a passionate Senior Software Engineer with over 6 years of expertise in crafting advanced user interfaces. Proficient in responsive UI design, I have a strong foundation in frontend frameworks and technologies. My goal is to leverage my skills in creating seamless user experiences and drive innovation in web development.`;
+export const HERO_CONTENT: string = `I am a passionate Software Engineer with over 6 years of expertise in crafting advanced user interfaces. Proficient in responsive UI design, I have a strong foundation in frontend frameworks and technologies. My goal is to leverage my skills in creating seamless user experiences and drive innovation in web development.`;
 
-export const ABOUT_TEXT: string = `I am a dedicated Senior Software Engineer with a focus on frontend development. With over 6 years of professional experience, I have honed my skills in creating advanced, responsive user interfaces. My expertise spans across various frontend frameworks and technologies, allowing me to craft seamless user experiences. I am particularly skilled in microfront-end architecture, performance optimization, and full-stack development. My journey in software engineering is driven by a passion for innovation and a commitment to delivering high-quality solutions that enhance user interaction and drive business growth.`;
+export const ABOUT_TEXT: string = `I am a dedicated Software Engineer with a focus on frontend development. With over 6 years of professional experience, I have honed my skills in creating advanced, responsive user interfaces. My expertise spans across various frontend frameworks and technologies, allowing me to craft seamless user experiences. I am particularly skilled in microfront-end architecture, performance optimization, and full-stack development. My journey in software engineering is driven by a passion for innovation and a commitment to delivering high-quality solutions that enhance user interaction and drive business growth.`;
 
 interface Experience {
   year: string;
@@ -34,33 +34,27 @@ interface Experience {
 
 export const EXPERIENCES: Experience[] = [
   {
-    year: "June 2022 - Present",
-    role: "Senior Software Engineer",
+    year: "June 2023 - Present",
+    role: "Software Engineer I",
     company: "BIZONGO, Bangalore",
-    description: `Led implementation of microfront-end architecture, improved app performance, and spearheaded Flutter-based mobile app development. Implemented Google OAuth, reCaptcha, and Firebase Cloud Messaging.`,
+    description: `Led implementation of microfront-end architecture, improved app performance, and spearheaded Flutter-based mobile app development. Implemented Google OAuth, reCaptcha and user login experience`,
     technologies: ["Javascript", "React", "Redux", "HTML", "CSS", "Antd", "Webpack5", "Microfrontend", "AWS", "Flutter"],
   },
   {
-    year: "October 2020 - June 2022",
-    role: "Senior Software Engineer",
-    company: "SYMPHONY RETAIL AI, Remote",
-    description: `Designed and developed end-to-end solutions using Vue.js and Spring. Contributed to and maintained internal libraries, and mentored offshore team in Vue.js implementation.`,
-    technologies: ["Java", "Spring", "JavaScript", "Vue", "Oracle", "ProC", "PL/SQL", "Azure", "Docker"],
+    year: "June 2022 - June 2023",
+    role: "SDE Intern",
+    company: "BIZONGO, Bangalore",
+    description: `Worked on catalog project to develop multiple features in the frontend application. Also developed library for generic react component using bit.cloud and fixed VAPT and compliances issues in Frontend and backend services.`,
+    technologies: ["Javascript", "React", "Redux", "Antd", "Bit", "Java", "SpringBoot"],
   },
   {
-    year: "September 2019 - October 2020",
-    role: "Software Consultant",
-    company: "iPromoteU, Remote",
-    description: `Designed responsive web applications using React and SASS. Streamlined development process by creating mock APIs and integrating with REST APIs.`,
-    technologies: ["JavaScript", "React", "Redux", "MySQL", "Bootstrap", "SASS", "AWS"],
+    year: "January 2022 - February 2022",
+    role: "Technical Intern",
+    company: "Niti Aayog",
+    description: `Worked on the frontend components to improve their interactivity and responsiveness on various screens.CRUD operations were carried out on databases to display the list of amendments.`,
+    technologies: ["Javascript", "Bootstrap","HTML","CSS","MYSQL"],
   },
-  {
-    year: "September 2018 - August 2019",
-    role: "Software Engineer",
-    company: "Mindfire Solutions, Bhubaneswar",
-    description: `Developed a full-stack finance report generation application. Worked with various technologies to create comprehensive solutions.`,
-    technologies: ["JavaScript", "jQuery", "HTML", "CSS", "Bootstrap", "Google Chart", "CKEditor", "Node", "Vue", "ColdFusion"],
-  },
+ 
 ];
 
 interface Project {
@@ -109,8 +103,8 @@ interface Contact {
 
 export const CONTACT: Contact = {
   address: "Bangalore, India",
-  phoneNo: "+91-9861616677",
-  email: "ashisjenamfs@gmail.com",
+  phoneNo: "+91-7080742796",
+  email: "ayush.katiyar0109@gmail.com",
 };
 
-export const ashis =  "jena";
+// export const ashis =  "jena";

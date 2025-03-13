@@ -81,7 +81,7 @@ const Navbar: React.FC = () => {
 
             <div className="flex items-center justify-center gap-4">
               <a
-                href="https://www.linkedin.com/in/ashis-jena"
+                href="https://www.linkedin.com/in/ayush-katiyar-306969199"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`transition-colors duration-300 ${
@@ -93,7 +93,7 @@ const Navbar: React.FC = () => {
                 <FaLinkedin size={24} />
               </a>
               <a
-                href="https://github.com/ashisj"
+                href="https://github.com/ayush505"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`transition-colors duration-300 ${
@@ -105,7 +105,7 @@ const Navbar: React.FC = () => {
                 <FaGithub size={24} />
               </a>
               <a
-                href="https://x.com/ashiskumarjena"
+                href="https://x.com/katoo0109"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`transition-colors duration-300 ${

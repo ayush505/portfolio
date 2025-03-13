@@ -25,24 +25,24 @@ function Technologies() {
   const technologies = [
     { Icon: SiHtml5, color: "text-orange-600", duration: 2.7 },
     { Icon: SiCss3, color: "text-blue-600", duration: 2.8 },
-    { Icon: SiSass, color: "text-pink-400", duration: 3.0 },
+    // { Icon: SiSass, color: "text-pink-400", duration: 3.0 },
     
     { Icon: SiJavascript, color: "text-yellow-400", duration: 3.2 },
     { Icon: TbBrandTypescript, color: "text-blue-500", duration: 4 },
     
     { Icon: RiReactjsLine, color: "text-cyan-400", duration: 2.5 },
     { Icon: SiRedux, color: "text-purple-500", duration: 3.5 },
-    { Icon: SiVuedotjs, color: "text-green-500", duration: 3.1 },
+    // { Icon: SiVuedotjs, color: "text-green-500", duration: 3.1 },
     
     
     { Icon: SiAntdesign, color: "text-blue-400", duration: 2.6 },
     { Icon: SiBootstrap, color: "text-purple-600", duration: 2.9 },
     // { Icon: SiMaterialUi, color: "text-blue-500", duration: 3.4 },
-    { Icon: SiQuasar, color: "text-blue-400", duration: 3.3 },
+    // { Icon: SiQuasar, color: "text-blue-400", duration: 3.3 },
     
     { Icon: TbBrandNextjs, color: isDarkMode ? "text-white" : "text-black", duration: 3 },
-    { Icon: FaNodeJs, color: "text-green-500", duration: 6 },
-    { Icon: SiExpress, color: "text-gray-500", duration: 3.7 },
+    // { Icon: FaNodeJs, color: "text-green-500", duration: 6 },
+    // { Icon: SiExpress, color: "text-gray-500", duration: 3.7 },
 
     { Icon: FaJava, color: "text-red-600", duration: 4.1 },
     { Icon: SiSpringboot, color: "text-green-500", duration: 4.3 },

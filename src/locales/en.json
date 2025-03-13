@@ -5,20 +5,20 @@
     "language": "Language"
   },
   "hero": {
-    "name": "Ashis Jena",
+    "name": "Ayush Katiyar",
     "title": "Frontend Developer",
-    "content": "I am a passionate Senior Software Engineer with over 6+ years of expertise in crafting advanced user interfaces. Proficient in responsive UI design, I have a strong foundation in frontend frameworks and technologies. My goal is to leverage my skills in creating seamless user experiences and drive innovation in web development."
+    "content": "I am a passionate Software Engineer with over 2+ years of expertise in crafting advanced user interfaces. Proficient in responsive UI design, I have a strong foundation in frontend frameworks and technologies. My goal is to leverage my skills in creating seamless user experiences and drive innovation in web development."
   },
   "about": {
     "heading": "About Me",
-    "content": "I am a dedicated Senior Software Engineer with a focus on frontend development. With over 6+ years of professional experience, I have honed my skills in creating advanced, responsive user interfaces. My expertise spans across various frontend frameworks and technologies, allowing me to craft seamless user experiences. I am particularly skilled in microfront-end architecture, performance optimization, and full-stack development. My journey in software engineering is driven by a passion for innovation and a commitment to delivering high-quality solutions that enhance user interaction and drive business growth."
+    "content": "I am a dedicated Software Engineer with a focus on frontend development. With over 2+ years of professional experience, I have honed my skills in creating advanced, responsive user interfaces. My expertise spans across various frontend frameworks and technologies, allowing me to craft seamless user experiences. I am particularly skilled in microfront-end architecture, performance optimization, and full-stack development. My journey in software engineering is driven by a passion for innovation and a commitment to delivering high-quality solutions that enhance user interaction and drive business growth."
   },
   "experiences": {
     "heading": "Experience",
     "content": [
       {
         "year": "June 2022 - Present",
-        "role": "Senior Software Engineer",
+        "role": "Software Engineer",
         "company": "BIZONGO, Bangalore",
         "description": "Led implementation of microfront-end architecture, improved app performance, and spearheaded Flutter-based mobile app development. Implemented Google OAuth, reCaptcha, and Firebase Cloud Messaging.",
         "technologies": [
@@ -36,7 +36,7 @@
       },
       {
         "year": "October 2020 - June 2022",
-        "role": "Senior Software Engineer",
+        "role": "Software Engineer",
         "company": "SYMPHONY RETAIL AI, Remote",
         "description": "Designed and developed end-to-end solutions using Vue.js and Spring. Contributed to and maintained internal libraries, and mentored offshore team in Vue.js implementation.",
         "technologies": [

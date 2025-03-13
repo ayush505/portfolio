@@ -1,4 +1,4 @@
-import profilePic from "../assets/ashisjena.jpg";
+import profilePic from "../assets/ayush.jpg";
 // import { HERO_CONTENT } from "../constants";
 import { motion } from "framer-motion";
 import { useAppSettings } from "../context/AppSettingsContext";
@@ -63,7 +63,7 @@ function Hero() {
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.2 }}
               src={profilePic}
-              alt="Ashis Jena"
+              alt="Ayush Katiyar"
               className={`h-80 w-80 rounded-full  object-cover ${isDarkMode ? 'border-4 border-gray-700' : 'border-4 border-gray-300'}`}
             />
           </div>
